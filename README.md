@@ -2,7 +2,7 @@
 
 ![Forks](https://img.shields.io/github/forks/sudip6164/Instant_Profile_Access?logo=GITHUB&style=for-the-badge)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-blue.svg?style=for-the-badge)](https://github.com/sudip6164/Instant_Profile_Access)
-[![Stargazers](https://img.shields.io/github/stars/sudip6164/Dev-Circle-React-App?logo=github&style=for-the-badge)](https://github.com/sudip6164/Instant_Profile_Access/stargazers)
+[![Stargazers](https://img.shields.io/github/stars/sudip6164/Instant_Profile_Access?logo=github&style=for-the-badge)](https://github.com/sudip6164/Instant_Profile_Access/stargazers)
 
  # Instant Profile Access (Manifest V3)
   
@@ -67,4 +67,4 @@ Instant-Profile-Access
 ## Credits
 Original concept by [Yuvraj Verma.](https://github.com/yuvrajverma01/Instant_Profile_Access.git)
 <br><br>
-Modernized and Maintained by Sudip Pradhan.
+Modernized and Maintained by [Sudip Pradhan.](https://github.com/sudip6164)
