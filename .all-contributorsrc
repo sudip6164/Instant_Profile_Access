@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "sanziv9999",
+      "name": "sanjeev-magar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57293491?v=4",
+      "profile": "https://github.com/sanziv9999",
+      "contributions": [
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Instant_Profile_Access",
+  "projectOwner": "sudip6164"
+}
