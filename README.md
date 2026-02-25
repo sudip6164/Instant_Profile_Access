@@ -1,7 +1,4 @@
 <div align="center">
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Forks](https://img.shields.io/github/forks/sudip6164/Instant_Profile_Access?logo=GITHUB&style=for-the-badge)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-blue.svg?style=for-the-badge)](https://github.com/sudip6164/Instant_Profile_Access)
@@ -74,7 +71,7 @@ Modernized and Maintained by [Sudip Pradhan.](https://github.com/sudip6164)
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
