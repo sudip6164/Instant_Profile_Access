@@ -1,4 +1,7 @@
 <div align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Forks](https://img.shields.io/github/forks/sudip6164/Instant_Profile_Access?logo=GITHUB&style=for-the-badge)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-blue.svg?style=for-the-badge)](https://github.com/sudip6164/Instant_Profile_Access)
@@ -68,3 +71,25 @@ Instant-Profile-Access
 Original concept by [Yuvraj Verma.](https://github.com/yuvrajverma01/Instant_Profile_Access.git)
 <br><br>
 Modernized and Maintained by [Sudip Pradhan.](https://github.com/sudip6164)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sanziv9999"><img src="https://avatars.githubusercontent.com/u/57293491?v=4?s=100" width="100px;" alt="sanjeev-magar"/><br /><sub><b>sanjeev-magar</b></sub></a><br /><a href="https://github.com/sudip6164/Instant_Profile_Access/issues?q=author%3Asanziv9999" title="Bug reports">🐛</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
