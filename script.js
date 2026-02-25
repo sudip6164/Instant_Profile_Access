@@ -86,9 +86,31 @@ const renderFields = ({ newFieldName, isNewField, storedValue = "" }) => {
   });
 
   const newFieldDeleteBtn = createButton("fas fa-trash", () => {
+  const defaultFields = ["Github", "Linkedin", "Twitter", "Portfolio", "Email", "Dev"];
+
+  if (defaultFields.includes(newFieldName)) {
+    // SOFT DELETE: Just clear the text for core profiles
     newFieldInput.value = "";
     saveToStorage(newFieldName, "");
-  });
+    alert(newFieldName + " cleared ✔");
+  } else {
+    // HARD DELETE: Completely remove custom profile
+    if (confirm("Are you sure you want to delete the '" + newFieldName + "' profile?")) {
+      chrome.storage.local.get("customFields", (data) => {
+        let fields = data.customFields || [];
+        // Remove from the names list
+        const updatedFields = fields.filter(f => f !== newFieldName);
+        
+        // Remove the data and update the list
+        chrome.storage.local.remove(newFieldName);
+        chrome.storage.local.set({ customFields: updatedFields }, () => {
+          // Remove the UI element from the screen
+          newField.remove();
+        });
+      });
+    }
+  }
+});
 
   newField.append(newIcon, newFieldInput, newFieldSaveBtn, newFieldCopyBtn, newFieldDeleteBtn);
   linksDiv.appendChild(newField);
