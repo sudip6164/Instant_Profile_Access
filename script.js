@@ -126,14 +126,29 @@ const renderFields = ({ newFieldName, isNewField, storedValue = "" }) => {
   }
 };
 
-// Helper to reduce repetitive button code
 function createButton(iconClass, onClick) {
   const btn = document.createElement("button");
-  btn.className = "m-1 bg-grey-500 hover:bg-grey-700 text-black py-2 px-4 rounded-md shadow-md";
+  
+  // Base classes: Added 'transition-transform' and 'duration-150' for a snappy pop
+  btn.className = "m-1 bg-white hover:bg-gray-100 text-black py-2 px-4 rounded-md shadow-md transition-transform duration-150 cursor-pointer ease-out";
+  
   const icon = document.createElement("i");
   icon.className = iconClass;
   btn.appendChild(icon);
-  btn.addEventListener("click", onClick);
+
+  btn.addEventListener("click", (e) => {
+    // 1. Run the action
+    onClick(e);
+
+    // 2. ENLARGE: Scale up to 120% instantly
+    btn.classList.add("scale-120", "shadow-xl", "z-10");
+
+    // 3. REVERT: Back to normal after 150ms
+    setTimeout(() => {
+      btn.classList.remove("scale-120", "shadow-xl", "z-10");
+    }, 150);
+  });
+
   return btn;
 }
 
